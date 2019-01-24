@@ -1,0 +1,14 @@
+uuid: 15dd8bb9-87f9-400e-8e83-45783ed849c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.theme_b
+  module:
+    - user
+id: user_add_role_action.theme_b
+label: 'Add the theme_b role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: theme_b

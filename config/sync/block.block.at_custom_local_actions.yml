@@ -1,0 +1,20 @@
+uuid: ee309b47-9a2e-40c8-80c2-5d41e8d744bc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - at_custom
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: at_custom_local_actions
+theme: at_custom
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

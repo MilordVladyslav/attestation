@@ -1,0 +1,69 @@
+{
+    "name": "drupal/drupal",
+    "description": "Drupal 8 test project",
+    "type": "project",
+    "require": {
+        "cweagans/composer-patches": "^1.6.0",
+        "drupal/admin_toolbar": "^1.24",
+        "drupal/bootstrap": "^3.16",
+        "drupal/console": "^1.0.2",
+        "drupal/core": "^8.6",
+        "drupal/empty_page": "^2.0",
+        "drupal/role_theme_switcher": "^1.0",
+        "drush/drush": "~8.0|^9.0.0-beta8",
+        "hussainweb/drupal-composer-helper": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Tao",
+            "email": "v.kostiuk@internetdevels.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "drupal-composer-helper": {
+            "web-prefix": "htdocs"
+        },
+        "enable-patching": true,
+        "installer-paths": {
+          "htdocs/core": [
+            "type:drupal-core"
+          ],
+          "htdocs/libraries/{$name}": [
+            "type:drupal-library"
+          ],
+          "htdocs/modules/contrib/{$name}": [
+            "type:drupal-module"
+          ],
+          "htdocs/profiles/contrib/{$name}": [
+            "type:drupal-profile"
+          ],
+          "htdocs/themes/contrib/{$name}": [
+            "type:drupal-theme"
+          ],
+          "htdocs/drush/contrib/{$name}": [
+            "type:drupal-drush"
+          ],
+          "htdocs/modules/custom/{$name}": [
+            "type:drupal-custom-module"
+          ],
+          "htdocs/themes/custom/{$name}": [
+            "type:drupal-custom-theme"
+          ]
+        }
+    },
+    "prefer-stable": true,
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

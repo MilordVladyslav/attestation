@@ -1,0 +1,22 @@
+uuid: 669d6d41-4f34-410f-91aa-6932514072ce
+langcode: en
+status: true
+dependencies:
+  theme:
+    - at_custom
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: at_custom_local_tasks
+theme: at_custom
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

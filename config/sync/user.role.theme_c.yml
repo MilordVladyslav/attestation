@@ -1,0 +1,9 @@
+uuid: d976cc36-d477-418f-ad52-6314513bd9ab
+langcode: en
+status: true
+dependencies: {  }
+id: theme_c
+label: theme_c
+weight: 4
+is_admin: null
+permissions: {  }

@@ -1,0 +1,9 @@
+styles:
+  css:
+    theme:
+      css/all.css: {}
+
+scripts:
+  js:
+    theme:
+      js/common.js: {}

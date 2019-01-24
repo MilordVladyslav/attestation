@@ -1,0 +1,16 @@
+roles:
+  anonymous:
+    theme: ''
+    weight: '0'
+  authenticated:
+    theme: ''
+    weight: '0'
+  administrator:
+    theme: ''
+    weight: '0'
+  theme_b:
+    theme: at_bootstrap
+    weight: '0'
+  theme_c:
+    theme: at_custom
+    weight: '0'

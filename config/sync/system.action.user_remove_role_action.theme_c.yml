@@ -1,0 +1,14 @@
+uuid: 0e6f5923-9bfb-403e-8651-123b8b84fa27
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.theme_c
+  module:
+    - user
+id: user_remove_role_action.theme_c
+label: 'Remove the theme_c role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: theme_c

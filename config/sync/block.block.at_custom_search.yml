@@ -1,0 +1,22 @@
+uuid: 4b5cead5-2088-4b93-be9a-b8c9d2e8a1ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - at_custom
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: at_custom_search
+theme: at_custom
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

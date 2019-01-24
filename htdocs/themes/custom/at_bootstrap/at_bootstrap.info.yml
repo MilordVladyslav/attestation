@@ -1,0 +1,9 @@
+
+type: theme
+base theme: bootstrap
+core: '8.x'
+name: 'at_bootstrap'
+description: 'at_bootstrap subtheme'
+
+libraries:
+  - at_bootstrap/styles
