@@ -20,17 +20,6 @@ return gulp.src('scss/all.scss')
 .pipe(browserSync.reload({stream: true}))
 })
 
-// gulp.task('sass', function(){ // Создаем таск "sass"
-//     return gulp.src('app/sass/main.sass') // Берем источник
-//         .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
-//         .pipe(gulp.dest('app/css')) // Выгружаем результата в папку app/css
-// });
-
-
-
-
-
-
 gulp.task('scripts', function () {
 return gulp.src([
 ]) 
